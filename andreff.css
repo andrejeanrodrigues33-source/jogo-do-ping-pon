@@ -1,0 +1,35 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #000;
+	background-image: url("bol.JPG");
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	flex-direction: column;
+}
+
+canvas {
+	border: 2px solid red;
+	z-index: 1;
+}
+
+.title {
+	position: absolute;
+	top: 18px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	font-size: 74px;
+	color: Blue;
+}
+
+.credit {
+	position: absolute;
+	bottom: 32px;
+	right: 44px;
+	font-size: 25px;
+	color: Red;
+}
